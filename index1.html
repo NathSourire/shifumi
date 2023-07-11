@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/5/pulse/bootstrap.css">
+    <link rel="stylesheet" href="public/assets/css/style.css">
     <script defer src="public/assets/js/exo1.js"></script>
-    <title>Document</title>
+    <title>ShiFuMi</title>
 </head>
 <body>
     
+    <div class="container-fluid">
+        <div class="row justify-content-center text-center col-12">
+            <div>
+                <h1>ShiFuMi</h1>
+                <img class="welcome" src="public/assets/img/2874085162_1.jpg" alt="Welcome Mémé Titi Sysvestre">
+            </div>
+            <middle class="text-center">
+                <h4>Shifumi nouvelle version créé par moi :p</h4>
+                <h6>vous pourrez constater que j'ai remplacer la pierre par Grand mère la feuille par Titi et Sylvestre par les ciseaux </h6>
+                <h6>A vous de jouez et bien vous amusez !!!</h6>
+            </middle>
+            <div class="row justify-content-center text-center col-12">
+            <div class="col-4 carte">
+                
+                <button id="grandmere" type=submit class="select">
+                    <img id="imgMeme" src="public/assets/img/Mémé.png" alt="Grand mère"></button>
+                    <h4>Mémé</h4>
+            </div>
+            <div class="col-4 carte">
+                
+                <button id="titi" type=submit class="select">
+                    <img id="imgTiti"  src="public/assets/img/titi.png" alt="Titi" ></button>
+                    <h4>Titi</h4>
+            </div>
+            <div class="col-4 carte">
+                
+                <button id="sylvestre" type=submit class="select">
+                    <img id="imgSylvestre"  src="public/assets/img/Sylvestre.jpg" alt="Sylvestre"></button>
+                    <h4>Sylvestre</h4>
+            </div>
+            <div class="row justify-content-center text-center">
+                <p class="resultat"></p>
+                <button id="save" type="submit" class="btn btn-outline-primary col-2 text-center ">Save</button>
+                <audio id="sonTiti" src="public/assets/sound/ungrosminet.mp3"></audio>
+            </div>
+        </div>
+        </div>
+    </div>
+    <figure>
+        <audio src="public/assets/sound/titi-et-grosminet.mp3" autoplay></audio>
+    </figure>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
