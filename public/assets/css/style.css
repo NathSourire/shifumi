@@ -1,0 +1,24 @@
+img{
+    height: 75%;
+    width: 50%;
+}
+h1{
+    height:40px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(159, 118, 197);
+}
+middle{
+    padding-top: 50px;
+}
+
+.carte button{
+    background-color: rgb(159, 118, 197);
+    border: none;
+}
+.carte img{
+    height:180px;
+    width: 100%;
+    object-fit: contain;
+}
